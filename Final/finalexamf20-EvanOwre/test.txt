@@ -1,0 +1,10 @@
+{-isNil :: Tree a -> Bool
+isNil Nil = True
+                          
+rightComp :: Ord a => Tree a -> a -> Bool
+rightComp (Node _ x _) v = v < x 
+
+leftComp :: Ord a => Tree a -> a -> Bool
+leftComp (Node _ x _) v = v > x 
+-}
+
